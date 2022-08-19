@@ -1,0 +1,62 @@
+
+.twitter-g::after {
+  display: inline-block;
+  content: "";
+  outline: 2px solid red;
+  width: 44px;
+  height: 44px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  background-color: var(--color-white);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.twitter-g:nth-child(2)::after {
+  background-position: center;
+  background-image: url("../images/twitter1-g.svg");
+}
+
+.facebook::after {
+  display: inline-block;
+  content: "";
+  outline: 2px solid red;
+  width: 44px;
+  height: 44px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  background-color: var(--color-white);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.facebook:nth-child(3)::after {
+  background-position: center;
+  background-image: url("../images/facebook1.svg");
+}
+
+
+.linkedin::after {
+  display: inline-block;
+  content: "";
+  outline: 2px solid red;
+  width: 44px;
+  height: 44px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  background-color: var(--color-white);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.linkedin:nth-child(3)::after {
+  background-position: center;
+  background-image: url("../images/linkedin1.svg");
+}
+
